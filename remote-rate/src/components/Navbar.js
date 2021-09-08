@@ -38,6 +38,7 @@ function Navbar(props) {
             })}
             {props.isAuthenticated?
              <li>
+          
              <LogoutButton />
             </li>: <LoginButton />
             }

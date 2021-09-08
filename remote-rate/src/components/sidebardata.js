@@ -18,15 +18,15 @@ export const sidebardata = [
     cName:'nav-text'
   },
   {
-    title:'AboutUs',
-    path: '/aboutUs',
-    icon: <RemixIcons.RiTeamLine/>,
-    cName:'nav-text'
-  },
-  {
     title:'Compare',
     path: '/compare',
     icon: <RemixIcons.RiGasStationFill/>,
+    cName:'nav-text'
+  },
+  {
+    title:'AboutUs',
+    path: '/aboutUs',
+    icon: <RemixIcons.RiTeamLine/>,
     cName:'nav-text'
   },
 ]
