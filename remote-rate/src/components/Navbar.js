@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
 import { Link } from 'react-router-dom';
-import { sidebardata } from './sidebardata';
+import { sidebardata } from './Sidebardata';
 import '../css/Navbar.css';
 import { IconContext } from 'react-icons';
 import LogoutButton from './LogoutButton';
