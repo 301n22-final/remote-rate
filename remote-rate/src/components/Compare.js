@@ -17,7 +17,7 @@ class Compare extends React.Component {
 
   componentDidMount = async () => {
     try {
-      await this.getUserData().then(console.log('State', this.state));
+      await this.getUserData();
     } catch (err) {
       console.log(err);
     }
@@ -104,7 +104,7 @@ class Compare extends React.Component {
             <Accordion className="m-4">
               {this.state.userInfo.newJob.map((job, indx) => {
                 return (
-                  <Card>
+                  <Card key={indx}>
                     <Accordion.Toggle as={Card.Header} eventKey={String(indx)}>
                       {job.newEmployer}
                     </Accordion.Toggle>

@@ -63,11 +63,11 @@ class Landing extends React.Component {
                 <Card className="sample m-3">
                   <p className="catchWords">
                     <span
-                      class="d-block p-2 grey ">
+                      className="d-block p-2 grey ">
                       Get the money you deserve! Say it with me!
                     </span>
                     <span
-                      class="d-block p-2 blue text-white font-2">
+                      className="d-block p-2 blue text-white font-2">
                       It's my Money and I want it NOW!
                     </span>
                   </p>

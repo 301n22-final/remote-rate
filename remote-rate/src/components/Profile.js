@@ -253,8 +253,9 @@ class Profile extends React.Component {
             </Col>
             <Col>
               <CardColumns>
-                {this.state.userInfo.newJob.map(job => (
-                  <Offer
+                {this.state.userInfo.newJob.map((job, idx) => (
+                  <Offer 
+                    key={idx}
 
                     userInfo={this.state.userInfo}
                     deleteOffer={this.deleteOffer}
